@@ -1,0 +1,12 @@
+@import url("../../theme.css");
+
+button {
+    background-color: var(--btn-blue);
+    color: var(--btn-text);
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-family: var(--font-btn)
+}

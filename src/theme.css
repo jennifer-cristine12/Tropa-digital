@@ -1,0 +1,14 @@
+:root {
+    --bg-color: #FF6C22;
+    --color-strong: #FF6C22;
+    --bg-main: #FFFFFF;
+    --btn-blue: #2EAFB2;
+    --btn-text: #fff;
+    --color-text: #929292;
+    --bg-page: #F3F3F3;
+    --fonts: 'Advent Pro', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    --font-main: 'Advent Pro';
+    --font-btn: "Roboto";
+}

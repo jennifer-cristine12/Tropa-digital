@@ -1,0 +1,14 @@
+@import url("../../theme.css");
+
+h1 {
+    font-family: var(--font-main);
+    font-weight: 700;
+    color: var(--color-text);
+    width: 40% !important;
+    margin-left: 10px;
+}
+
+h1 strong {
+    color: var(--color-strong);
+    font-weight: 700;
+}
