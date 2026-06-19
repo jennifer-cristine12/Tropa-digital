@@ -1,10 +1,33 @@
 main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 857px !important;
-    height: 512px !important;
+    height: 512px;
     margin: auto;
 }
 
-main img#fundo1 {
-    width: 30%;
+
+main div.fundo {
+    background-image: url("../../assets/fundoEstrelas.png") !important;
     height: 100%;
+    border-radius: 16px;
+}
+
+main div.fundo img#fundo2 {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    right: 50px;
+    top: 30%;
+
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 75px;
+    margin: 20% auto;
 }

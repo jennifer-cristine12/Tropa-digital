@@ -1,23 +1,23 @@
 
 import Form from "../../components/Form/Form"
 import Title from '../../components/Title/Title';
-import FundoEstrelas from "../../assets/fundoEstrelas.png"
+import Logo from "../../assets/Logo.png"
 import Computador from "../../assets/computador.png"
 import "./main.css"
 export default function Main() {
     return (
         <>
             <main className="row">
-                <div>
+                <div className="col">
+                    <img src={Logo} id="logo" alt="logo" />
+
                     <Title
                         main="Bem Vindo ao "
                         strong="painel"
                     />
                     <Form />
                 </div>
-                <div>
-
-                    <img src={FundoEstrelas} alt="fundo" id="fundo1" />
+                <div className="fundo col">
                     <img src={Computador} alt="fundo" id="fundo2" />
                 </div>
             </main>

@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Button from "../Button/button";
 import Input from "../Input/Input"
-import eye001 from "../../assets/symbols/eye001.png"
-import eye000 from "../../assets/symbols/eye000.png"
+import eye001 from "../../assets/symbols/eye001.svg"
+import eye000 from "../../assets/symbols/eye000.svg"
 import "./Form.css"
 function Form() {
     const [show, setShow] = useState(false)

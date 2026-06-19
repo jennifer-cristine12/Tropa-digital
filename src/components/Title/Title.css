@@ -4,8 +4,8 @@ h1 {
     font-family: var(--font-main);
     font-weight: 700;
     color: var(--color-text);
-    width: 40% !important;
-    margin-left: 10px;
+    width: 80% !important;
+    margin-left: 50px;
 }
 
 h1 strong {
