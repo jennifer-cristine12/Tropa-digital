@@ -1,6 +1,6 @@
 
-import Form from "../../components/Form/Form"
-import Title from '../../components/Title/Title';
+import Form from "../Form/Form"
+import Title from '../Title/Title';
 import Logo from "../../assets/Logo.png"
 import Computador from "../../assets/computador.png"
 import "./main.css"
@@ -17,7 +17,7 @@ export default function Main() {
                     />
                     <Form />
                 </div>
-                <div className="fundo col">
+                <div className="fundo col w-100">
                     <img src={Computador} alt="fundo" id="fundo2" />
                 </div>
             </main>

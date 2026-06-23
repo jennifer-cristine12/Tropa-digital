@@ -1,0 +1,13 @@
+@import url("../../../theme.css");
+
+div.section {
+    background-color: var(--btn-blue);
+    font-weight: 600;
+    width: 90%;
+
+}
+
+div.section button {
+    font-family: var(--font-main) !important;
+
+}

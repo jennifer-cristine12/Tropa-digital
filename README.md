@@ -10,9 +10,9 @@ Refazendo meu primeiro desafio tecnico no linkedin
   - banco de dados: JSON (dados das paginas)
   - autenticação via Token
 - Prazos
-  - Componentes: até dia 14/06
+  - Componentes: até dia 14/06 
   - Paginas
-    -  Login: até dia 17/06
+    -  Login: até dia 17/06 //finalizado
     -  Inicio: até dia 20/06
     -  Relatorios: até dia 23/06
     -  Contatos: até dia 26/06

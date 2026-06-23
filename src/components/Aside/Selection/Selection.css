@@ -1,0 +1,33 @@
+@import url("../../../theme.css");
+
+.sessao {
+    background-color: var(--btn-blue);
+    padding-left: 20px;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sessao .selected {
+    background-color: var(--bg-selected);
+    color: black;
+    padding-left: 20px;
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sessao button {
+    font-family: var(--fonts);
+    font-weight: 600;
+}

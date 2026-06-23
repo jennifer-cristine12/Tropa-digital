@@ -1,15 +1,18 @@
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Main from "./components/main/main"
+import Login from "./pages/login"
+import Inicio from "./pages/inicio"
 function App() {
 
 
   return (
     <>
-
-      <Main />
-
-
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Login />} />
+          <Route path='/Inicio' element={<Inicio />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

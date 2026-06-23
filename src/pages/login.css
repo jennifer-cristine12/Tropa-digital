@@ -1,0 +1,11 @@
+@import "../theme.css";
+
+div.login {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh !important;
+
+}

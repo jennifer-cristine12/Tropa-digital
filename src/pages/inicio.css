@@ -1,0 +1,19 @@
+@import url("../theme.css");
+
+.index {
+    background-color: var(--bg-page);
+    display: flex;
+}
+
+.index h1 {
+    color: var(--color-text);
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 540px;
+    border-bottom: 1px solid var(--color-text);
+}
+
+.index h1 strong {
+    color: var(--color-text);
+
+}

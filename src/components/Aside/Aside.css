@@ -1,0 +1,24 @@
+@import url("../../theme.css");
+
+aside {
+    position: relative;
+    top: 1%;
+    height: 100vh;
+    width: 260px !important;
+    background-color: var(--bg-main);
+    margin-left: 20px !important;
+}
+
+aside img#logoAside {
+    position: relative;
+    width: 80%;
+    left: 10% !important;
+    top: 5%;
+
+}
+
+aside div.paginas {
+    position: relative;
+    margin-top: 80px;
+    top: 40px;
+}
