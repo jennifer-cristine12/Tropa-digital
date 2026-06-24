@@ -1,0 +1,64 @@
+@import url("../../theme.css");
+
+.card {
+    background-color: var(--bg-main);
+    font-family: var(--fonts);
+    width: 500px;
+    height: 228px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+}
+
+.card .image {
+    display: flex;
+    justify-self: flex-end;
+    z-index: 5 !important;
+    position: relative;
+    background-image: url("../../assets/fundoEstrelas.png");
+    width: 95% !important;
+    height: 150px;
+    margin: 20px auto 10px auto;
+
+    border-radius: 8px;
+
+}
+
+.card h3 {
+    font-size: 15px;
+    font-weight: 650;
+
+}
+
+.card p {
+    font-size: 12px;
+}
+
+
+.card .time {
+    color: var(--btn-text);
+    position: relative;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 4px;
+    padding-top: 16px;
+    flex-wrap: wrap;
+    top: 10px;
+    z-index: 6;
+    left: 300px;
+
+}
+
+.card .time img {
+    height: 22px;
+}
+
+.card .text {
+    position: relative;
+    margin-left: 15px;
+}

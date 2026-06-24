@@ -3,7 +3,7 @@ import Button from "../../Button/button"
 import "./Selection.css"
 import { useState } from "react"
 export default function Selection(props: any) {
-    const [selected, setSelected] = useState(props.selected);
+    const [selected] = useState(props.selected);
     const sessao = document.querySelector("sessao")
     if (selected) {
         sessao?.classList.add("selected")
