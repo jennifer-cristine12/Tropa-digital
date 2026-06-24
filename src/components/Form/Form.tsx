@@ -4,6 +4,7 @@ import Input from "../Input/Input"
 import eye001 from "../../assets/symbols/eye001.svg"
 import eye000 from "../../assets/symbols/eye000.svg"
 import "./Form.css"
+import { Link } from 'react-router-dom';
 function Form() {
     const [show, setShow] = useState(false)
 
@@ -15,7 +16,7 @@ function Form() {
             <form action="" method="post">
                 <Input placeholder={"Digite seu email"} type={"email"} />
                 <Input placeholder={"Digite sua senha"} type={show ? "text" : "password"} ><img id="eye" onClick={handleshow} src={show ? eye001 : eye000} alt="show" /></Input>
-                <Button>Acessar</Button>
+                <Button><Link to="/Inicio">Acessar</Link></Button>
             </form>
         </>
     )

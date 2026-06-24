@@ -1,5 +1,13 @@
+@import url("../../theme.css");
+
 form {
     max-width: 313px !important;
     margin: 50px;
 
+}
+
+form button a {
+    text-decoration: none;
+    font-family: var(--font-btn) !important;
+    color: #fff;
 }
