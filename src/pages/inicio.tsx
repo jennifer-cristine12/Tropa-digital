@@ -7,7 +7,7 @@ import Fundo from "../assets/fundoEstrelas.png"
 import Aside from '../components/Aside/Aside'
 import Selection from "../components/Aside/Selection/Selection";
 import Title from "../components/Title/Title";
-import Card from "../components/Card/card";
+import Card from "../components/Card/Card";
 import Hero from "../components/Hero/Hero"
 
 export default function inicio() {
